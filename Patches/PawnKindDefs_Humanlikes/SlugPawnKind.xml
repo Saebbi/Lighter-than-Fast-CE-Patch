@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+ 
+ <Patch>
+ 
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/PawnKindDef[defName="SlugTrader"]</xpath>
+    <value>
+      <li Class="CombatExtended.LoadoutPropertiesExtension">
+        <primaryMagazineCount>
+          <min>3</min>
+          <max>5</max>
+        </primaryMagazineCount>
+      </li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/PawnKindDef[defName="SlugGuard"]</xpath>
+    <value>
+      <li Class="CombatExtended.LoadoutPropertiesExtension">
+        <primaryMagazineCount>
+          <min>3</min>
+          <max>5</max>
+        </primaryMagazineCount>
+      </li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/PawnKindDef[defName="SlugFighter"]</xpath>
+    <value>
+      <li Class="CombatExtended.LoadoutPropertiesExtension">
+        <primaryMagazineCount>
+          <min>3</min>
+          <max>5</max>
+        </primaryMagazineCount>
+      </li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/PawnKindDef[defName="SlugGrenadier"]</xpath>
+    <value>
+      <li Class="CombatExtended.LoadoutPropertiesExtension">
+        <primaryMagazineCount>
+          <min>3</min>
+          <max>5</max>
+        </primaryMagazineCount>
+      </li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/PawnKindDef[defName="SlugHunter"]</xpath>
+    <value>
+      <li Class="CombatExtended.LoadoutPropertiesExtension">
+        <primaryMagazineCount>
+          <min>3</min>
+          <max>5</max>
+        </primaryMagazineCount>
+      </li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/PawnKindDef[defName="SlugHistGuard"]</xpath>
+    <value>
+      <li Class="CombatExtended.LoadoutPropertiesExtension">
+        <primaryMagazineCount>
+          <min>3</min>
+          <max>5</max>
+        </primaryMagazineCount>
+      </li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/PawnKindDef[defName="SlugShadowscale"]</xpath>
+    <value>
+      <li Class="CombatExtended.LoadoutPropertiesExtension">
+        <primaryMagazineCount>
+          <min>3</min>
+          <max>5</max>
+        </primaryMagazineCount>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>

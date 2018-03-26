@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+ 
+ <Patch>
+ 
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/PawnKindDef[defName="ZoltanTrader"]</xpath>
+    <value>
+      <li Class="CombatExtended.LoadoutPropertiesExtension">
+        <primaryMagazineCount>
+          <min>3</min>
+          <max>5</max>
+        </primaryMagazineCount>
+      </li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/PawnKindDef[defName="ZoltanGuard"]</xpath>
+    <value>
+      <li Class="CombatExtended.LoadoutPropertiesExtension">
+        <primaryMagazineCount>
+          <min>3</min>
+          <max>5</max>
+        </primaryMagazineCount>
+      </li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/PawnKindDef[defName="ZoltanFighter"]</xpath>
+    <value>
+      <li Class="CombatExtended.LoadoutPropertiesExtension">
+        <primaryMagazineCount>
+          <min>3</min>
+          <max>5</max>
+        </primaryMagazineCount>
+      </li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/PawnKindDef[defName="ZoltanGrenadier"]</xpath>
+    <value>
+      <li Class="CombatExtended.LoadoutPropertiesExtension">
+        <primaryMagazineCount>
+          <min>3</min>
+          <max>5</max>
+        </primaryMagazineCount>
+      </li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/PawnKindDef[defName="ZoltanHunter"]</xpath>
+    <value>
+      <li Class="CombatExtended.LoadoutPropertiesExtension">
+        <primaryMagazineCount>
+          <min>3</min>
+          <max>5</max>
+        </primaryMagazineCount>
+      </li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/PawnKindDef[defName="ZoltanHistGuard"]</xpath>
+    <value>
+      <li Class="CombatExtended.LoadoutPropertiesExtension">
+        <primaryMagazineCount>
+          <min>3</min>
+          <max>5</max>
+        </primaryMagazineCount>
+      </li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/PawnKindDef[defName="ZoltanShadowscale"]</xpath>
+    <value>
+      <li Class="CombatExtended.LoadoutPropertiesExtension">
+        <primaryMagazineCount>
+          <min>3</min>
+          <max>5</max>
+        </primaryMagazineCount>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>

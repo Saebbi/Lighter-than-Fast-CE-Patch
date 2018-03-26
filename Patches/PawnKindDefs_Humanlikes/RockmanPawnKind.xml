@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+ 
+ <Patch>
+ 
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/PawnKindDef[defName="RockmanTrader"]</xpath>
+    <value>
+      <li Class="CombatExtended.LoadoutPropertiesExtension">
+        <primaryMagazineCount>
+          <min>3</min>
+          <max>5</max>
+        </primaryMagazineCount>
+      </li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/PawnKindDef[defName="RockmanGuard"]</xpath>
+    <value>
+      <li Class="CombatExtended.LoadoutPropertiesExtension">
+        <primaryMagazineCount>
+          <min>3</min>
+          <max>5</max>
+        </primaryMagazineCount>
+      </li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/PawnKindDef[defName="RockmanFighter"]</xpath>
+    <value>
+      <li Class="CombatExtended.LoadoutPropertiesExtension">
+        <primaryMagazineCount>
+          <min>3</min>
+          <max>5</max>
+        </primaryMagazineCount>
+      </li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/PawnKindDef[defName="RockmanGrenadier"]</xpath>
+    <value>
+      <li Class="CombatExtended.LoadoutPropertiesExtension">
+        <primaryMagazineCount>
+          <min>3</min>
+          <max>5</max>
+        </primaryMagazineCount>
+      </li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/PawnKindDef[defName="RockmanHunter"]</xpath>
+    <value>
+      <li Class="CombatExtended.LoadoutPropertiesExtension">
+        <primaryMagazineCount>
+          <min>3</min>
+          <max>5</max>
+        </primaryMagazineCount>
+      </li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/PawnKindDef[defName="RockmanHistGuard"]</xpath>
+    <value>
+      <li Class="CombatExtended.LoadoutPropertiesExtension">
+        <primaryMagazineCount>
+          <min>3</min>
+          <max>5</max>
+        </primaryMagazineCount>
+      </li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/PawnKindDef[defName="RockmanShadowscale"]</xpath>
+    <value>
+      <li Class="CombatExtended.LoadoutPropertiesExtension">
+        <primaryMagazineCount>
+          <min>3</min>
+          <max>5</max>
+        </primaryMagazineCount>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>
